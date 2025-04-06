@@ -1,18 +1,15 @@
 
+
 body {
     margin: 0;
     padding: 0;
     background: #ccee66;
-    /* cor de fundo */
     color: white;
-    /* cor do texto */
     padding: 20px 160px;
     height: 100vh;
-    /* altura */
     font-family: "Noto Sans", sans-serif;
 
     overflow: hidden;
-    /* o que fazer com o que sobra ?*/
 }
 
 body::before {
@@ -35,18 +32,13 @@ body::after {
     color: black;
     font-size: 250px;
     font-weight: bold;
-    /* grossura da fonte */
     opacity: 0.5;
 }
 
-/* after(depois) / before(antes) */
 
 
-
-/* class = . */
 .logo {
     width: 80px;
-    /* largura */
 }
 
 h4 {
@@ -59,7 +51,6 @@ h1 {
 
 p {
     font-size: 16px;
-    /* tamanho do texto */
     margin-bottom: 40px;
 }
 
@@ -67,7 +58,6 @@ p {
     background: #a3be52;
     padding: 10px 20px;
     border-radius: 20px;
-    /* arredondar a borda */
     font-size: 16px;
     color: black;
     cursor: pointer;
@@ -76,7 +66,6 @@ p {
 
 .botao-carrinho:hover {
     opacity: 0.7;
-    /* transparencia */
 }
 
 .imagem-tenis {
@@ -86,11 +75,8 @@ p {
 
 .caixa-principal {
     display: flex;
-    /* habilita alguns superpoderes */
     justify-content: space-between;
-    /* alinha na horizontal */
     align-items: center;
-    /* alinha na vertical */
     height: 75%;
     position: relative;
     z-index: 1;
@@ -98,7 +84,6 @@ p {
 
 .caixa-texto {
     max-width: 500px;
-    /* largura maxima */
 }
 
 .caixa-botoes {
